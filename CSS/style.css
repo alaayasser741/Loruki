@@ -45,6 +45,11 @@ body{
     font-family: 'Lato', sans-serif;
     line-height: 1.6;
 }
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 header{
     position: relative;
 }
@@ -179,4 +184,31 @@ section .card2{
 }
 section p{
     margin: 0;
+}
+/* /////////DOCS///////// */
+.docs-main .box{
+    background-color: var(--light-color);
+    width: 320px;
+    max-width: 100%;
+}
+.docs-main .box-2{
+    width: 100%;
+    
+}
+.docs-main .grid-doc{
+    display: grid;
+    grid-template-columns: 330px auto;
+    gap: 20px;
+}
+@media (max-width:768px) {
+    .docs-main .grid-doc{
+        grid-template-columns: 1fr;
+    }
+    .docs-main .box{
+        margin: 0 auto;
+        width: 100%;
+    }
+    .docs-main .box-2{
+        margin: 0 auto;
+    }
 }

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="CSS/normalize.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="CSS/style.css">
+        <link rel="icon" href="images/logos/clojure.png">
+        <title>Loruki</title>
+    </head>
+<body>
+    <main>
+        <!--Start NavBar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary" style="z-index: 999999;" id="mainNav">
+            <div class="container">
+                <a href="#" class="text-white text-decoration-none fs-4">LORUKI</a>
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="feature.html">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="docs.html">Docs</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--End NavBar -->
+        <!-- Start Features -->
+        <div class="hosting bg-primary ">
+            <div class="container m-auto row align-items-center justify-content-around">
+                <div class="header-info text-lg-start text-center text-md-center col-lg my-md-4 my-sm-4 my-4">
+                    <h1 class="text-white fw-light">Docs</h1>
+                    <p class="text-white fw-light">Learn how to work with the Loruki platform</p>
+                </div>
+                <img style="max-width: 220px" class="col-lg my-md-4 my-sm-4 my-4" src="images/docs.png" alt="">
+            </div>
+        </div>
+        <!-- End Features -->
+        <!-- Start Docs -->
+        <section class="docs-main my-4">
+            <div class="container grid-doc">
+                <div class="card box p-3 mb-auto row">
+                    <h3 class="my-2 fs-4">Essentials</h3>
+                    <nav>
+                        <ul>
+                            <li><a class="d-block fs-6 text-primary text-decoration-none border-bottom border-dark pb-1 mb-1" href="#">Introduction</a></li>
+                            <li><a class="d-block fs-6 text-decoration-none text-black-50 border-bottom border-dark pb-1 mb-1" href="#">About Loruki</a></li>
+                            <li><a class="d-block fs-6 text-decoration-none text-black-50 border-bottom border-dark pb-1 mb-1" href="#">Installation</a></li>
+                        </ul>
+                    </nav>
+    
+                    <h3 class="my-2 fs-4">Deployment</h3>
+                    <nav>
+                        <ul>
+                            <li><a class="d-block fs-6 text-decoration-none text-black-50 border-bottom border-dark pb-1 mb-1" href="#">Setting up a container</a></li>
+                                <li><a class="d-block fs-6 text-decoration-none text-black-50 border-bottom border-dark pb-1 mb-1" href="#">Using the CLI</a></li>
+                                <li><a class="d-block fs-6 text-decoration-none text-black-50 border-bottom border-dark pb-1 mb-1" href="#">Managing resources</a></li>
+                                <li><a class="d-block fs-6 text-decoration-none text-black-50 border-bottom border-dark pb-1 mb-1" href="#">Upgrade &amp; downgrade</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- ////// -->
+                <div class="card box-2 fw-light row">
+                    <h2 class="mb-3 p-0">Introduction</h2>
+                    <p class="mb-3 p-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio illo facere perferendis laborum? Similique recusandae incidunt eos dolorum aliquam ipsam unde perspiciatis laudantium totam quam laborum velit, at maxime minus?</p>
+    
+                    <div class="alert mb-3  alert-success bg-success text-white">
+                        <i class="fas fa-info"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, animi?
+                    </div>
+    
+                    <h3 class="mb-3 p-0">Lorem, ipsum dolor.</h3>
+                    <p class="mb-3 p-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima totam magni eius vitae velit id, atque veritatis! At, vero porro.</p>
+                    <a href="#" class="btn btn-primary w-25 mb-3">Install CLI</a>
+    
+                    <h3 class="mb-3 p-0">Requirements</h3>
+                    <ul class="mb-3 p-0">
+                        <li>Windows 10, Mac OSX, Linux</li>
+                        <li>Node.js v12 or higher</li>
+                    </ul>
+    
+                    <h3 class="mb-3 p-0">Install</h3>
+                    <p class="mb-3 p-0">Mac (Homebrew)</p>
+                    <pre class="bg-dark text-white p-2"><code>$ brew install loruki-cli</code></pre>
+                    <p class="mb-3 p-0">NPM</p>
+                    <pre class="bg-dark text-white p-2"><code>$ npm install loruki-cli</code></pre>
+                    <p class="mb-3 p-0">Yarn</p>
+                    <pre class="bg-dark text-white p-2"><code>$ yarn install loruki-cli</code></pre>
+    
+                </div>
+            </div>
+        </section>
+        <!-- End Docs -->
+        <footer>
+            <div class="container">
+                <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 mt-4">
+                <div class="col-md-4 d-flex align-items-center">
+                    <span class="text-muted">Loruki <br>Copyright © 2020</span>
+                </div>
+                
+                <ul class="nav col-md-4 justify-content-end list-unstyled d-flex my-2">
+                    <li class=""><a class="text-white text-decoration-none" href="#">Home</a></li>
+                    <li class="ms-3"><a class="text-white text-decoration-none" href="#">Feature</a></li>
+                    <li class="ms-3"><a class="text-white text-decoration-none" href="#">Docs</a></li>
+                </ul>
+                <div class="social my-2 my-md-0">
+                    <a href="https://github.com/alaayasser741" target="_blank" class="btn-dark mx-2"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.facebook.com/alaayasser741/" target="_blank" class="btn-dark mx-2"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.linkedin.com/in/alaayasser741/" target="_blank" class="btn-dark mx-2"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                </footer>
+            </div>
+        </footer>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
