@@ -52,7 +52,7 @@ header::before{
     content: '';
     position: absolute;
     left: 0;
-    bottom: -40px;
+    bottom: -80px;
     width: 100%;
     height: 150px;
     background: #ffff;
@@ -81,4 +81,34 @@ header .card input[type="submit"]{
 }
 header .card form input:focus{
     outline: none;
+}
+.stats{
+    margin-top: 140px;
+}
+.stats p{
+    max-width: 500px;
+    margin: 0 auto;
+}
+.stats .imges img{
+    width:450px;
+    /* max-width: 100%; */
+}
+@media (max-width:768px) {
+    .stats .imges img{
+        max-width: 100%;
+    }
+}
+.stats .imges .card{
+    width: 290px;
+    padding: 20px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.stats .imges .card h3{
+    font-size: 1rem !important;
+    
 }
